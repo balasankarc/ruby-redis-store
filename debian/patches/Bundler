@@ -1,0 +1,17 @@
+Description: Removing Bundler dependency
+ Removing the bundler requirement from the tests.
+ .
+ ruby-redis-store (1.1.4-1) UNRELEASED; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)
+Author: Balasankar C <balasankarc@autistici.org>
+
+
+--- ruby-redis-store-1.1.4.orig/test/test_helper.rb
++++ ruby-redis-store-1.1.4/test/test_helper.rb
+@@ -1,4 +1,4 @@
+-require 'bundler/setup'
++#require 'bundler/setup'
+ require 'minitest/autorun'
+ require 'mocha/setup'
+ require 'redis'
