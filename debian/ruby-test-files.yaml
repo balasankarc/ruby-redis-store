@@ -1,0 +1,10 @@
+---
+- test/redis/distributed_store_test.rb
+- test/redis/store/factory_test.rb
+- test/redis/store/interface_test.rb
+- test/redis/store/marshalling_test.rb
+- test/redis/store/namespace_test.rb
+- test/redis/store/ttl_test.rb
+- test/redis/store/version_test.rb
+- test/redis/store_test.rb
+- test/test_helper.rb

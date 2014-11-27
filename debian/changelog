@@ -1,0 +1,5 @@
+ruby-redis-store (1.1.4-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)
+
+ -- Balasankar C <balasankarc@autistici.org>  Thu, 27 Nov 2014 20:57:16 +0530
