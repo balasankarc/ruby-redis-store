@@ -1,8 +1,9 @@
 ruby-redis-store (1.1.4-2) experimental; urgency=medium
 
   * Debian update
-  * Moved the start and stop scripts of redis-servr to ruby-tests.rake
+  * Moved the start and stop scripts of redis-server to ruby-tests.rake
     for Debian CI pass
+  * Fixed the file changed by patch to original state
 
  -- Balasankar C <balasankarc@autistici.org>  Mon, 01 Dec 2014 21:29:40 +0530
 
