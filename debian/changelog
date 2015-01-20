@@ -1,6 +1,5 @@
 ruby-redis-store (1.1.4-2) unstable; urgency=medium
 
-  * Debian update
   * Moved the start and stop scripts of redis-server to ruby-tests.rake
     for Debian CI pass
   * Fixed the file changed by patch to original state
